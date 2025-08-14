@@ -1,0 +1,990 @@
+.custom {
+    background-color: rgb(4, 10, 34);
+  }
+
+.dashboard-items {
+  padding: 10px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.dashboard-title {
+  background-color: rgb(6, 0, 95);
+  color: white;
+}
+
+.dashboard-items:hover {
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  width: 100%;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: rgba(0, 17, 255, 0.507);
+}
+
+.username {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.user {
+  position: absolute;
+  right: 20px;
+  display: flex;
+}
+
+.dropdown-item:hover {
+  background-color: grey;
+}
+
+.main {
+  padding-top: 60px;
+  color: white;
+}
+
+.main7 {
+  padding-top: 60px;
+  color: white;
+}
+
+/* .card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+} */
+
+@media (min-width: 1200px) {
+  .card {
+    margin: 10px;
+    width: 500px !important;
+    
+  }
+
+  .footer {
+    margin-left: 650px;
+  }
+
+  /* .footer1 {
+    margin-left: -650px !important;
+  } */
+
+  .st-summary {
+  width: 1080px !important;
+  /* margin-left: 520px !important; */
+  margin-bottom: -50px !important;
+  margin-top: -30px !important;
+}
+
+
+.land {
+  position: absolute;
+  top: 0;
+  width: 1900px;
+
+}
+.land1 {
+  position: absolute;
+  top: 0;
+  width: 1900px;
+
+}
+.main11 {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  margin-top: 60px;
+  width: 1400px;
+  background: linear-gradient(135deg, #d1f2eb, #0f1e3c);
+
+
+}
+
+.main7 {
+  margin-left: 600px;
+}
+
+
+
+  .chat-box{
+    width: 1800px;
+    margin-left: 40px;
+  }
+
+  .container{
+    /* margin-left: 400px; */
+    margin-top: 70px;
+    
+  }
+  .main-kyt{
+    margin-left: 500px;
+  }
+
+  .studentAlerts{
+     /* margin-left: 520px !important; */
+    margin-bottom: -50px !important;
+    margin-top: 90px !important;
+    width: 60% !important;
+  }
+
+
+   .inactive{
+     /* margin-left: 520px !important; */
+    margin-bottom: -30px !important;
+    margin-top: 90px !important;
+    width: 60% !important;
+
+
+  }
+
+  .summary{
+    /* margin-left: 520px !important; */
+    margin-bottom: -80px !important;
+
+  }
+
+  .main3 {
+    margin-left: 500px;
+  }
+
+  .calendar-wrapper{
+    margin-left: 700px;
+  }
+
+  .notification-container{
+    margin-left: 700px;
+    
+  }
+}
+
+.main11 {
+
+background: linear-gradient(135deg, #d1f2eb, #0f1e3c);
+
+
+
+}
+
+@media (max-width: 1199px) {
+  .card {
+    margin: 10px;
+  }
+
+  
+
+
+  .main-kyt {
+    margin-left: 10px;
+  }
+}
+.card-body {
+  flex-grow: 1;
+}
+
+.icon-style {
+  margin: 10px auto;
+}
+
+.card-text, .card-title {
+  white-space: normal; 
+  overflow: visible;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  min-width: 100vh;
+}
+
+
+
+.fixed-card {
+  width: 18rem;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gap-3 {
+  gap: 1.5rem; /* Adds spacing between stacked cards */
+}
+
+.profile-modal-backdrop {
+  position: fixed;
+   top: 0;
+   left: 0; 
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1050;
+}
+
+.profile-modal {
+  display: block;
+    position: relative;
+    color: rgb(29, 3, 75);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 1100px;
+    height: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    font-size: 20px;
+}
+
+/* .tutor-info {
+  border: solid white;
+  border-radius: 10px;
+  margin: 40px;
+  height: 900px;
+  font-size: 20px;
+  padding: 20px;
+
+} */
+
+.main-kyt {
+  align-items: center;
+  margin-top: 80px;
+  width: 900px;
+  position: relative;
+
+}
+/* 
+.tutor-pic {
+  /* border: solid white; */
+  /* width: 200px;
+  height: 250px;
+  margin: 20px; */
+/* } */
+
+.tutor-info {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tutor-info > div:first-child {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #041a2b;
+}
+
+.tutor-info img.tutor-pic {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tutor-info div {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.tutor-info p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 15px;
+  text-align: justify;
+}
+
+.tutor-info hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+
+.chat-box {
+  align-items: center;
+  margin-top: 80px;
+  position: relative;
+ }
+
+.chat-name {
+  z-index: 1;
+  position: absolute;
+  background-color: rgb(10, 28, 100);
+  top: 0;
+  height: 60px;
+  width: 100%;
+  transform: translateX(-20px);
+  text-align: left;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold ;
+}
+
+.bot-toggle-box {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.chat-area {
+  border: solid white;
+  border-radius: 10px;
+  margin: 40px;
+  height: 900px;
+  font-size: 20px;
+  padding: 20px;
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(./assets/chat-background.png);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.profile {
+ border-radius: 50%;
+ object-fit: cover;
+ height: 40px;
+ width: 40px;
+ z-index: 1070;
+ background-color: red;
+ margin: 0px 10px 0px 10px;
+ 
+}
+
+.chat-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: solid white;
+  border-radius: 10px;
+  margin: 40px;
+  height: 800px;
+  font-size: 20px;
+  padding: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(./assets/chat-background.png);
+  position: relative;
+  overflow: hidden;
+}
+
+.chat-input-area {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0 0 0;
+}
+
+.chat-input-area input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.chat-input-area button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: rgb(25, 0, 255);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chat-messages {
+  margin-top: 70px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* change this */
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.chat-message {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+ 
+.sent {
+  background-color: #DCF8C6;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.received {
+  background-color: #FFF;
+  align-self: flex-start;
+  text-align: left;
+}
+
+
+.request {
+  font-size: 40px;  
+  margin: 40px;
+}
+
+.meeting-type {
+   margin-top: 100px;
+}
+
+.message .seen-text {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
+
+
+.meeting-modal {
+    display: block;
+    position: relative;
+    color: rgb(29, 3, 75);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 600px;
+    height: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    font-size: 20px;
+}
+
+.message.unseen {
+  font-weight: bold;
+  background-color: #0c323f;
+}
+
+
+.meeting-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+}
+
+/* Calendar Styles */
+.calendar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.calendar-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 24px;
+  
+}
+
+.calendar-container {
+  background-color: rgba(113, 103, 255, 0.678);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Main calendar element */
+.react-calendar {
+  border: none;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 22px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 900px !important;
+  /* height: 650px; */
+  
+}
+
+/* Homepage.css */
+.react-calendar__tile.highlight {
+  background: #007bff !important ;
+  color: white !important;
+  font-weight: bold;
+}
+
+.react-calendar__tile {
+  background-color: white !important;
+  color: black !important;
+}
+
+
+
+
+.highlight {
+  background-color: yellow!important;
+  color: white !important;
+  border-radius: 50%;
+}
+
+
+/* Date tiles */
+.react-calendar__tile {
+  color: black;
+  background-color: white;
+
+}
+
+/* Keep active tile styling */
+.react-calendar__tile--active {
+  background: rgb(0, 255, 149) !important;
+  color: white !important;
+  border-radius: 8px;
+}
+
+/* Keep highlighted tile styling */
+.react-calendar__tile.highlight {
+  background: #007bff !important;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+/* 
+.react-calendar__tile:hover {
+  background: rgb(29, 3, 75) !important;
+  color: white !important;
+  border-radius: 8px;
+} */
+
+.react-calendar__tile:hover {
+  transform: none !important;
+  transition: none !important;
+  background: rgb(224, 224, 224) !important;
+  color: gray !important;
+}
+
+
+/* Header (Month/Year navigation) */
+.react-calendar__navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(68, 0, 255);
+  border-radius: 8px;
+}
+
+
+.react-calendar__navigation button {
+  color: rgb(4, 10, 34) !important;
+
+  background: none;
+  font-weight: bold;
+  border: none;
+}
+
+.react-calendar__navigation button:hover {
+  background: rgb(29, 3, 75) !important;
+  color: white !important;
+  border-radius: 8px;
+}
+
+
+.selected-date {
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+}
+.react-calendar__month-view__days {
+  display: grid !important;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.react-calendar__tile {
+  height: 100px;
+  font-size: 18px;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.notification-container {
+  height: 900px;
+  width: 1000px;
+
+}
+
+.notification {
+  border: solid white 2px;
+  margin: 8px;
+  border-radius: 8px;
+  background-color: orange;
+  height: 80px;
+  width: 900px;
+  font-size: 22px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  font-weight: bold;
+  
+}
+
+.student-entry {
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.active-page {
+  background-color: rgba(88, 0, 204, 0.719);
+  color: rgb(4, 10, 34);
+  border-left: 5px solid rgb(67, 0, 121);
+}
+
+.accordion-container {
+  margin: 50px;
+}
+
+.accordion-item button:hover {
+  transform: none;
+}
+
+.table-container {
+  width: 900px;
+  margin: 50px;
+  
+}
+
+.search-bar-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  position: relative;
+  width: 300px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.main3 {
+  padding-top: 60px;
+  color: white;
+}
+
+
+.table-hover tbody tr.chat-r:hover {
+  background-color: #b4ff51 !important;
+  color: #000; /* optional: text color */
+  cursor: pointer;
+}
+
+.landing-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to bottom right, #0f172a, #1e293b);
+  margin-top: 60px;
+}
+
+.header-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.header-content p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #cbd5e1;
+}
+
+.highlight {
+  color: #f97316; /* Orange */
+}
+
+.cta-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.find-tutor-btn {
+  background-color: #f97316;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.learn-more-btn {
+  background-color: #0f172a;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.header-image img {
+  width: 90%;
+  max-width: 900px;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.why-choose {
+  padding: 4rem 1rem;
+  background-color: #0f172a;
+  text-align: center;
+}
+
+.why-choose h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.why-choose p {
+  color: #cbd5e1;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .features {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.feature-card {
+  background-color: #1e293b;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 280px;
+  text-align: left;
+  color: #f1f5f9;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.bottom-section {
+  padding: 4rem 1rem;
+  background: linear-gradient(to top right, #1e293b, #0f172a);
+  text-align: center;
+}
+
+.bottom-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bottom-section p {
+  margin-bottom: 2rem;
+  color: #cbd5e1;
+}
+
+.sign-up-btn {
+  background-color: #22c55e;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #0f172a;
+  color: #cbd5e1;
+}
+
+.footer1 {
+  padding: 1rem;
+  text-align: center;
+  background-color: #0f172a;
+  color: white;
+}
+
+.student-dashboard {
+  padding: 2rem;
+  color: white;
+  background-color: rgb(4, 10, 34);
+}
+
+.dashboard-header {
+  background-color: #0f1e3c;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  margin-bottom: 2rem;
+}
+
+.dashboard-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid orange;
+}
+
+.status-summary {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  padding: 1rem;
+  margin: 1rem auto 2rem;
+  width: 90%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* for Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #000; /* Optional: override Bootstrap's white text */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.glass-card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.dashboard-card {
+  background-color: #0f1e3c;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+.dashboard-card h4 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.dashboard-card .badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 6px 10px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.home { 
+  background-color: white;
+}
+.dashboard-header {
+  background-color: #0f1e3c;
+  padding: 1.5rem;
+  padding-left: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  margin-bottom: 2rem;
+  margin: 30px;
+}
+
+.land1 {
+  background-color: rgb(255, 255, 255);
+}
+

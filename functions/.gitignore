@@ -1,0 +1,11 @@
+node_modules/
+*.local
+.firebase/
+# Ignore trained BERT model
+src/bert_intent_model/
+src/serviceAccountKey.json
+src/uploadTutors.cjs
+*.env
+build/
+dist/
+*.log

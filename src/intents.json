@@ -1,0 +1,623 @@
+{
+  "intents": [
+    {
+    "tag": "greeting",
+    "patterns": [
+      "hello", "hi", "good morning", "hey", "good afternoon", "good evening",
+      "how are you", "what's up", "hi there", "greetings", "hello there", "howdy",
+      "how's it going", "yo", "nice to meet you"
+    ],
+    "responses": [
+      "Hello! How can I help you today?",
+      "Hi there! What can I do for you?"
+    ]
+  },
+  {
+    "tag": "schedule",
+    "patterns": [
+      "schedule", "meeting", "calendar", "book a meeting", "set up an appointment",
+      "can I book a meeting", "how do I schedule a meeting", "I want to schedule a meeting",
+      "how to book a time", "set meeting with tutor", "make an appointment",
+      "arrange meeting", "plan a session", "schedule with my lecturer"
+    ],
+    "responses": [
+      "You can schedule a meeting using the scheduling feature on your homepage.",
+      "Meetings can be booked via the student portal under the scheduling section."
+    ]
+  },
+  {
+    "tag": "assignment",
+    "patterns": [
+      "assignment", "homework", "task", "what assignment is due", "any homework",
+      "do I have any tasks", "check my assignment", "when is the homework due",
+      "assignment deadline", "list of assignments", "submit my task", "upload assignment",
+      "upcoming assignments", "due work", "tasks to do"
+    ],
+    "responses": [
+      "Be sure to check your portal for assignment details and deadlines.",
+      "All assignment information is available on your dashboard or course portal."
+    ]
+  },
+  {
+    "tag": "exam",
+    "patterns": [
+      "when is the exam", "exam timetable", "exam date", "is the test online",
+      "exam schedule", "upcoming tests", "final exam date", "when are exams starting",
+      "are exams online", "test time", "exam venue", "exam timetable please",
+      "exam registration", "where is my exam", "exam format"
+    ],
+    "responses": [
+      "Please check your KNUST student portal for the latest exam schedule.",
+      "Your exam details will be listed in your official student portal or AIM app."
+    ]
+  },
+  {
+    "tag": "grades",
+    "patterns": [
+      "where are my grades", "grade", "marks", "score", "check my results",
+      "did I pass", "how did I do", "what grade did I get", "can I see my grades",
+      "view my grades", "show my scores", "show my grades", "where can I find my marks",
+      "grades available", "grade report", "exam result"
+    ],
+    "responses": [
+      "You can view your grades using the AIM app or KNUST student portal.",
+      "Check the 'Results' section on your KNUST student portal to view your grades."
+    ]
+  },
+  {
+    "tag": "class_time",
+    "patterns": [
+      "what time is my class", "class schedule", "when is the next lecture",
+      "class time", "next class", "when is class", "check my timetable",
+      "what time is my next course", "when do we have class", "today's class schedule",
+      "lecture time", "when does class start", "class timetable"
+    ],
+    "responses": [
+      "Please check your timetable for class times or confirm with your course rep.",
+      "You can find your class times on the portal's timetable section."
+    ]
+  },
+  {
+    "tag": "library",
+    "patterns": [
+      "library hours", "how do I borrow books", "can I use the library", "book access",
+      "how to borrow a book", "library opening time", "when is the library open",
+      "can I access the library", "returning books", "library services", "how to access library",
+      "library availability", "get books from library"
+    ],
+    "responses": [
+      "Library hours and borrowing info are available on the university website.",
+      "Visit the KNUST Library portal for up-to-date opening hours and borrowing rules."
+    ]
+  },
+  {
+    "tag": "technical_issue",
+    "patterns": [
+      "my portal isn't working", "I can't log in", "website is down", "login error",
+      "site crashed", "portal error", "problem with portal", "technical issue",
+      "can't access site", "I got an error on the site", "system not working", "server error",
+      "app isn't loading", "login problem", "can't access my account"
+    ],
+    "responses": [
+      "Please contact the IT support team for technical issues.",
+      "Try clearing your browser cache or using a different device. If the issue persists, reach out to IT support."
+    ]
+  },
+  {
+    "tag": "registration",
+    "patterns": [
+      "how do I register", "add course", "drop course", "register for classes",
+      "course registration", "registration portal", "how to sign up for class",
+      "change my course", "class registration", "when can I register",
+      "registering for a course", "course selection", "can't register", "portal registration"
+    ],
+    "responses": [
+      "Course registration is done through the Student Registration Portal.",
+      "You can register, add, or drop courses through the KNUST portal during registration periods."
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "bye", "see you", "goodbye", "talk to you later", "farewell",
+      "see you later", "catch you later", "I'm done", "that's all",
+      "peace out", "take care", "later", "I'm leaving"
+    ],
+    "responses": [
+      "Goodbye! Let me know if you need help with anything else.",
+      "Take care! I'm here whenever you need help.",
+      "All the best with your studies!"
+    ]
+  },
+  {
+    "tag": "human_help",
+    "patterns": [
+      "I want to talk to a human", "Can I speak to my tutor?", "Let me talk to a tutor",
+      "can I speak to my lecturer", "This bot isn't helpful", "Talk to a real person",
+      "I need my teacher", "connect me to a human", "need to talk to someone",
+      "this is not working", "I need human help", "help from real person",
+      "can I get live support", "please connect me with staff"
+    ],
+    "responses": [
+      "Let me connect you with a tutor for assistance.",
+      "I'm transferring your request to a human assistant now.",
+      "A tutor will get back to you shortly — hang tight!"
+    ]
+  },
+  {
+    "tag": "thank_you",
+    "patterns": [
+      "thank you", "thanks", "thanks a lot", "appreciate it",
+      "cheers", "many thanks", "grateful", "thank you so much",
+      "I appreciate your help", "thanks again", "thanks for the support", "much obliged"
+    ],
+    "responses": [
+      "You're welcome! Let me know if there's anything else.",
+      "Happy to help!",
+      "Anytime — feel free to ask anything!"
+    ]
+  },
+  {
+    "tag": "motivation",
+    "patterns": [
+      "motivate me", "I need motivation", "feeling low", "can't study",
+      "study is hard", "how do I stay motivated", "lost motivation",
+      "help me push through", "how to keep going", "no motivation",
+      "feeling lazy", "uninspired"
+    ],
+    "responses": [
+      "You’ve come this far — keep pushing!",
+      "Stay strong! One step at a time gets you to the top.",
+      "Every bit of effort counts. You've got this!",
+      "You’re not alone — many feel this way. Keep going!"
+    ]
+  },
+  {
+    "tag": "stress",
+    "patterns": [
+      "I'm stressed", "so much pressure", "overwhelmed", "I feel stressed",
+      "too much to do", "I'm anxious", "can't handle it", "burnt out",
+      "I'm panicking", "exams are stressing me", "so much to study", "feeling heavy"
+    ],
+    "responses": [
+      "Try deep breathing or take a short walk — you’re not alone.",
+      "Start with one small task. You’ve got this!",
+      "It’s okay to feel overwhelmed. Let’s break things down together.",
+      "You can take it slow — small steps still move you forward."
+    ]
+  },
+  {
+    "tag": "confusion",
+    "patterns": [
+      "I'm confused", "don't get it", "don't understand", "it's hard",
+      "this is difficult", "I'm lost", "help me understand", "not clear",
+      "this doesn't make sense", "can you explain", "unclear", "explain better please"
+    ],
+    "responses": [
+      "That’s okay. Let me know which part confuses you.",
+      "We all get stuck sometimes. Can you tell me what’s unclear?",
+      "Let’s take it step-by-step — I’m here to help!",
+      "You're not alone — let's work through this together."
+    ]
+  },
+  {
+    "tag": "login_help",
+    "patterns": [
+      "can't log in", "forgot password", "login failed", "login not working",
+      "how to reset password", "I’m locked out", "portal login not working",
+      "password issue", "can’t access portal", "login problem", "can't get in", "trouble signing in"
+    ],
+    "responses": [
+      "Try resetting your password or contact the IT support team.",
+      "Check if your caps lock is on and try again. If not, reach out to support.",
+      "Use the 'Forgot Password' link on the portal to reset it."
+    ]
+  },
+  {
+    "tag": "focus",
+    "patterns": [
+      "I'm distracted", "can't focus", "too many distractions", "how to focus",
+      "need to concentrate", "can't study", "mind is wandering", "focus tips",
+      "study concentration", "I keep getting distracted", "focus problems", "how to stay focused"
+    ],
+    "responses": [
+      "Try putting your phone away and setting a timer for focused study.",
+      "Avoid multitasking and find a quiet spot — even 20 minutes of deep focus helps.",
+      "Use the Pomodoro technique — 25 minutes focus, 5 minutes break."
+    ]
+  },
+  {
+    "tag": "success",
+    "patterns": [
+      "I passed", "I did it", "I succeeded", "I got good marks", "I nailed it",
+      "I finished", "I'm done and happy", "I'm proud of myself", "it went well",
+      "I got great feedback", "I achieved my goal", "I aced it"
+    ],
+    "responses": [
+      "That’s amazing! Congratulations 🎉",
+      "You worked hard and it paid off — well done!",
+      "Every small win counts — keep going!",
+      "Celebrate your win — you earned it!"
+    ]
+  },
+
+      {
+    "tag": "forgot",
+    "patterns": [
+      "I forgot the assignment",
+      "forgot the lecture",
+      "I missed class",
+      "can't remember what the tutor said",
+      "forgot to submit",
+      "I forgot the deadline",
+      "missed the lecture notes",
+      "I can't recall the topic",
+      "didn’t attend class",
+      "don’t know what to do after missing class"
+    ],
+    "responses": [
+      "No worries! Ask your course rep or lecturer for clarification.",
+      "Try reaching out to a classmate or checking announcements in your class group to catch up."
+      
+    ]
+  },
+
+  {
+  "tag": "challenge",
+  "patterns": [
+    "this is hard",
+    "I'm struggling",
+    "this course is difficult",
+    "I don’t understand",
+    "this is confusing",
+    "I feel stuck",
+    "I'm having a tough time",
+    "I’m lost in this topic",
+    "I can’t keep up",
+    "everything feels overwhelming"
+  ],
+  "responses": [
+    "It’s okay to find things challenging. Tell me if you want to talk to your tutor? You’re not alone.",
+    "Learning can be tough, but you've got support. Let's take it one step at a time.",
+    "Many students feel the same — ask questions, take breaks, and keep trying."
+  ]
+},
+
+{
+  "tag": "study_tips",
+  "patterns": [
+    "how to study better",
+    "tips for exams",
+    "how can I concentrate",
+    "study techniques",
+    "how to revise",
+    "I need study advice",
+    "best study methods",
+    "how to prepare for tests",
+    "help me focus on studies",
+    "I want to improve my study habits"
+  ],
+  "responses": [
+    "Try active recall and spaced repetition. Make a study schedule and stick to it. I believe in you! 💪",
+    "Break your study sessions into chunks and use flashcards or summaries for review.",
+    "Stay consistent and avoid cramming. Good sleep and breaks boost retention."
+  ]
+},
+{
+  "tag": "marks_delay",
+  "patterns": [
+    "why haven't I seen my grades",
+    "grades delay",
+    "marks not showing",
+    "still waiting for results",
+    "when will grades come",
+    "results are late",
+    "grades not released yet",
+    "I didn’t get my score",
+    "marks aren’t updated",
+    "grades are missing"
+  ],
+  "responses": [
+    "Sometimes it takes time for instructors to upload grades. Check your portal or contact your department for updates.",
+    "Grading may take a few days. Keep an eye on your student portal for announcements."
+  ]
+},
+
+{
+  "tag": "time_management",
+  "patterns": [
+    "how do I manage my time",
+    "I always run out of time",
+    "time flies and I get nothing done",
+    "I can't organize my day",
+    "help me plan my day",
+    "I struggle with balancing tasks",
+    "how to manage school and personal life",
+    "I need a time management tip",
+    "I waste a lot of time",
+    "how do I schedule my study hours"
+  ],
+  "responses": [
+    "Start by creating a daily to-do list. Prioritize tasks and use a planner or calendar app.",
+    "Try time-blocking: dedicate specific hours for studying, breaks, and personal tasks.",
+    "Using the Pomodoro technique (25 minutes work, 5 minutes rest) can help boost focus."
+  ]
+},
+
+{
+  "tag": "exam_anxiety",
+  "patterns": [
+    "I'm scared of the exam",
+    "exams stress me out",
+    "I can't sleep before tests",
+    "I panic during exams",
+    "I feel nervous before exams",
+    "what if I fail the test",
+    "I get anxious before exams",
+    "I'm shaking before exams",
+    "I blank out during tests",
+    "how do I calm down before an exam"
+  ],
+  "responses": [
+    "You’re not alone — try breathing exercises and prepare a checklist before the exam.",
+    "Sleep well and revise calmly. Trust your preparation.",
+    "Confidence comes from preparation. Do your best, and remember it’s okay to be nervous."
+  ]
+},
+{
+  "tag": "lack_motivation",
+  "patterns": [
+    "I don't feel like studying",
+    "I’ve lost interest in school",
+    "I can’t find the motivation to work",
+    "what’s the point of this",
+    "I feel lazy",
+    "I don’t care about assignments anymore",
+    "nothing pushes me to study",
+    "I just don’t want to do anything",
+    "I feel unmotivated",
+    "how can I find motivation"
+  ],
+  "responses": [
+    "It’s okay to feel this way. Try setting small goals and celebrate little wins.",
+    "Remind yourself why you started and what you're working toward.",
+    "Take a break, talk to someone, and return when you're ready — you’re not alone."
+  ]
+},
+
+{
+  "tag": "burnout",
+  "patterns": [
+    "I feel exhausted",
+    "I can't keep going",
+    "I’m too tired to study",
+    "everything feels overwhelming",
+    "I think I’m burned out",
+    "my brain is fried",
+    "I don’t want to do anything anymore",
+    "I'm mentally drained",
+    "how do I recover from burnout",
+    "I'm sick of school"
+  ],
+  "responses": [
+    "Take a real break — rest, sleep, and don’t feel guilty. Your health matters.",
+    "Burnout is real. Reach out to someone and try reducing your workload for now.",
+    "You’ve been working hard. Step back, breathe, and come back refreshed."
+  ]
+},
+
+{
+  "tag": "peer_pressure",
+  "patterns": [
+    "everyone is doing it, should I?",
+    "my friends are pressuring me",
+    "I don't want to disappoint my group",
+    "how do I say no to my friends",
+    "they want me to skip class",
+    "I feel forced to do things I don't like",
+    "I feel left out if I don’t follow",
+    "peer pressure is affecting me",
+    "how do I stay true to myself",
+    "I don’t want to go along with them"
+  ],
+  "responses": [
+    "It’s okay to say no. You don’t need to follow others to belong.",
+    "True friends will respect your choices. Be confident in what’s right for you.",
+    "Stay focused on your goals — peer pressure can’t define your future."
+  ]
+},
+
+{
+  "tag": "group_work_issues",
+  "patterns": [
+    "my group isn’t working",
+    "I do all the work in my group",
+    "how do I deal with lazy group members",
+    "group projects are frustrating",
+    "no one listens in my group",
+    "group work is stressing me out",
+    "we can’t agree on anything",
+    "I need help managing group tasks",
+    "my teammates aren’t contributing",
+    "what to do if group mates fight"
+  ],
+  "responses": [
+    "Try setting clear roles early. Communication is key in group work.",
+    "If issues continue, let your tutor or lecturer know.",
+    "Document your contributions and be respectful when raising concerns."
+  ]
+},
+
+{
+  "tag": "self_doubt",
+  "patterns": [
+    "I don’t think I’m good enough",
+    "maybe I should drop out",
+    "I can’t do this",
+    "I’m not as smart as others",
+    "why am I even here",
+    "I feel like a failure",
+    "nothing I do is right",
+    "I always mess up",
+    "I’m not confident in myself",
+    "I feel like I don’t belong"
+  ],
+  "responses": [
+    "You belong here, and you’re stronger than you think. Keep going!",
+    "Everyone has doubts — growth comes from pushing through them.",
+    "Talk to someone you trust. You’re doing better than you think."
+  ]
+},
+{
+  "tag": "social_life_balance",
+  "patterns": [
+    "how do I balance school and social life",
+    "I want to hang out but I need to study",
+    "I feel guilty when I go out",
+    "I have no time for friends",
+    "studying takes all my time",
+    "I miss my friends",
+    "should I prioritize studies or fun",
+    "how can I enjoy university life and study",
+    "I want a break but I’m scared I’ll fall behind",
+    "how do I plan fun and study time"
+  ],
+  "responses": [
+    "Balance is key — set boundaries and reward your study efforts with some social time.",
+    "Make time for both. You can be productive *and* enjoy your student life.",
+    "You don’t need to sacrifice one for the other — schedule both into your routine."
+  ]
+},
+{
+  "tag": "sad",
+  "patterns": [
+    "I'm feeling sad",
+    "today isn’t a good day",
+    "I feel down",
+    "nothing is going right",
+    "I'm not in the mood",
+    "everything feels off",
+    "I just want to cry",
+    "life feels heavy",
+    "I’m emotionally tired",
+    "I feel low today",
+    "sad",
+    "so sad",
+    "feeling blue",
+    "down",
+    "really sad",
+    "depressed",
+    "not okay",
+    "I feel like crying",
+    "lonely",
+    "miserable"
+  ],
+  "responses": [
+    "I'm here for you. It's okay to feel sad sometimes.",
+    "Take a moment for yourself — your feelings are valid.",
+    "Even on hard days, you matter. You are not alone."
+  ]
+},
+
+{
+  "tag": "depressed",
+  "patterns": [
+    "I think I'm depressed",
+    "everything feels pointless",
+    "I don’t want to get out of bed",
+    "I’ve lost motivation for everything",
+    "nothing excites me anymore",
+    "I feel numb",
+    "I just want it all to stop",
+    "I’m mentally exhausted",
+    "I feel empty",
+    "I can't keep going like this"
+  ],
+  "responses": [
+    "I’m really sorry you’re feeling this way. You’re not alone, and support is available.",
+    "Please consider talking to someone you trust or a counselor — your mental health matters. You can also tell me if you want to speak to your academic tutor",
+    "You are not a burden. There is help, and you deserve to feel better."
+  ]
+}
+,
+
+{
+  "tag": "worried",
+  "patterns": [
+    "I'm worried about my exams",
+    "what if I fail",
+    "I'm scared I won't do well",
+    "I feel anxious about school",
+    "things are stressing me out",
+    "I'm nervous about the results",
+    "I don’t know if I studied enough",
+    "I’m worried I’ll disappoint people",
+    "I have too much on my mind",
+    "my mind won’t stop racing"
+  ],
+  "responses": [
+    "Take a deep breath. Worry is normal — let’s break things into manageable steps.",
+    "You’re doing your best — that counts. Let’s take it one task at a time.",
+    "Sometimes writing down your worries can help ease the pressure."
+  ]
+},
+
+{
+  "tag": "distractions",
+  "patterns": [
+    "distractions",
+    "avoid distractions",
+    "distract",
+    "distracted",
+    "I keep getting distracted",
+    "too many distractions around me",
+    "I can't concentrate with noise",
+    "everything keeps pulling my attention",
+    "how do I deal with distractions",
+    "my phone is distracting me",
+    "I get distracted easily",
+    "can't stay focused for long",
+    "I lose focus quickly",
+    "I'm always interrupted while studying"
+  ],
+  "responses": [
+    "Try finding a quiet space, putting your phone away, or using noise-canceling headphones if possible.",
+    "Minimize distractions by turning off notifications and setting short focus sessions with breaks in between.",
+    "Consider using apps that block distractions while studying, like Forest or Focus To-Do."
+  ]
+},
+{
+  "tag": "tutor_info",
+  "patterns": [
+    "Know my tutor",
+    "Who is my tutor?",
+    "Can you tell me about my tutor?",
+    "Give me information about my academic tutor",
+    "What is my lecturer’s name?",
+    "Who am I assigned to?",
+    "Tell me about my supervisor",
+    "Give me details about my assigned lecturer",
+    "Who should I contact?",
+    "Show my tutor information",
+    "I want to know who my tutor is",
+    "Who is responsible for me academically?",
+    "My mentor's name please",
+    "Which lecturer am I assigned to?",
+    "Let me see my academic advisor",
+    "Academic contact information",
+    "My assigned faculty member",
+    "I want tutor details",
+    "Can I know my supervisor?",
+    "Who is my point of contact?",
+    "My tutor's profile"
+
+  ],
+  "responses": [
+    "To get more information about your academic tutor, go to your Homepage and click on Know Your Academic Tutor."
+  ]
+}
+
+
+
+  ]
+}

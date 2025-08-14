@@ -1,0 +1,114 @@
+{
+  "T002": {
+    "name": "E. O. Osei",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1981-08-05",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T003": {
+    "name": "E. Ahene",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1979-06-24",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T004": {
+    "name": "K. Owusu-Agyeman",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1983-01-09",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T005": {
+    "name": "L. Banning",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1980-04-18",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T006": {
+    "name": "J. B. Hayfron-Acquah",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1976-10-23",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T007": {
+    "name": "M. Asante",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1982-12-31",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T008": {
+    "name": "J. K. Panford",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1984-05-07",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T009": {
+    "name": "N. Ussiph",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1978-07-26",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T010": {
+    "name": "F. Twum",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1977-02-11",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T011": {
+    "name": "Y. M. Missah",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1980-11-08",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T012": {
+    "name": "G. Abdul-Salaam",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1979-09-17",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T013": {
+    "name": "D. Asamoah",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1981-06-03",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T014": {
+    "name": "R. O. M. Gyening",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1983-04-29",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  },
+  "T015": {
+    "name": "K. Takyi",
+    "college": "College of Science",
+    "department": "Computer Science",
+    "dateOfBirth": "1974-09-01",
+    "hasSignedUp": false,
+    "profile": "dummytext"
+  }
+}
